@@ -1,12 +1,47 @@
-# React + Vite
+Projeto criado para servir como base de atividade de fixação no curso de Análise e desenvolvimento de sistema, disciplina Frameworks frontend - Faminas - 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Pré-requisitos
 
-Currently, two official plugins are available:
+Antes de começar, você precisa ter o [Node.js](https://nodejs.org/) instalado em seu sistema.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Você pode verificar se o Node.js está instalado com o comando:
 
-## Expanding the ESLint configuration
+```bash
+node -v
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Rodando o projeto localmente
+
+Siga os passos abaixo para executar o projeto em sua máquina localmente:
+
+1. **Clone o repositório** para sua máquina local:
+
+   ```bash
+   git clone https://github.com/FabricioLugao/renderizacao-condicional-exemplo.git
+   ```
+
+2. **Entre no diretório do projeto**:
+
+   ```bash
+   cd renderizacao-condicional-exemplo
+   ```
+
+3. **Instale as dependências** do projeto:
+
+   O projeto usa o `npm` para gerenciar as dependências. Execute o comando:
+
+   ```bash
+   npm install
+   ```
+
+4. **Execute o servidor de desenvolvimento**:
+
+   Após a instalação das dependências, inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Acesse o projeto**:
+
+   Abra seu navegador e vá para a url exibida. Você verá a interface do seu projeto rodando localmente.
